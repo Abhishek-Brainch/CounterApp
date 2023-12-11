@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+      <div id="wrapper">
+         <div class="flex flex-col">
+              <p class="font-bold text-[#D0D3D4]">Increment And Decrement</p>
+              <div class="flex border-t-2 p-3 flex-row justify-between">
+                   <button class="px-5 border-r-2" onclick="dec()">
+                    <i class="fa-solid fa-minus"></i>
+                   </button>
+                   
+                     <p id="counter" class="font-bold">0</p>
+                   <button class="px-5 border-l-2" onclick="Inc()">
+                    <i class="fa-solid fa-plus"></i>
+                   </button>
+              </div>
+         </div>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
